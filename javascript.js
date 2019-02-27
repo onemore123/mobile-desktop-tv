@@ -14,9 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
 
-        // console.log(event.target.getElementsByClassName('header')[0]);
-        // console.log(modalBackround);
-
         let img = event.target.getElementsByClassName('image')[0];
         let header = event.target.getElementsByClassName('header')[0];
         let desc = event.target.getElementsByClassName('desc')[0];
